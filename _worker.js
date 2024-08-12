@@ -1,7 +1,7 @@
 // @ts-nocheck
 // <!--GAMFC-->version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC<!--GAMFC-END-->.
 // @ts-ignore
-// https://github.com/bia-pain-bache/BPB-Worker-Panel
+// https://github.com/amclubs/BPB-Worker-Panel
 
 import { connect } from 'cloudflare:sockets';
 
@@ -214,11 +214,11 @@ export default {
                         });
 
                     default:
-                        // return new Response('Not found', { status: 404 });
-                        url.hostname = 'www.speedtest.net';
-                        url.protocol = 'https:';
-                        request = new Request(url, request);
-                        return await fetch(request);
+                        return new Response('Not found', { status: 404 });
+                        // url.hostname = 'www.speedtest.net';
+                        // url.protocol = 'https:';
+                        // request = new Request(url, request);
+                        // return await fetch(request);
                 }
             } else {
                 return await vlessOverWSHandler(request);
