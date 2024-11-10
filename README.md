@@ -8,7 +8,7 @@
 <br>
 
 ## Introduction
-This project is dedicated to developing a user panel for the [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk). The panel offers two deployment options: 
+This project is dedicated to developing a user panel for the [amclubs/am-cf-tunnel](https://github.com/amclubs/am-cf-tunnel) . The panel offers two deployment options: 
 - **Worker** deployment
 - **Pages** deployment
 <br>
@@ -60,12 +60,6 @@ This project is dedicated to developing a user panel for the [Cloudflare-workers
 | **Clash Verge Rev**  |   | :x: | :x: |
 | **FLClash**  |   | :x: | :x: |
 
-
----
-
-## Stargazers Over Time
-[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
-
 ---
 
 ### Special Thanks
@@ -73,5 +67,3 @@ This project is dedicated to developing a user panel for the [Cloudflare-workers
 - CF preferred IP program author [badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest), [XIU2](https://github.com/XIU2/CloudflareSpeedTest)
 
 ---
-
-For a detailed tutorial on the core script, please refer to [Yongge’s blog and video tutorials](https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html).
